@@ -59,7 +59,7 @@ class << Library = Class.new
     end
   end
   def track_fields
-    ['Name','Artist','Album Artist','Composer','Album','Genre','Kind']
+    ['Name','Artist','Album Artist','Composer','Album','Genre','Kind','Location']
   end
   def search_tracks(word)
     tracks.select{|id,track|
